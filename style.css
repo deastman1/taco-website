@@ -1,7 +1,7 @@
 .container {
     display: grid;
     grid-template-columns: 1.6fr 1fr;
-    grid-template-rows: 75px 45px 700px 50px;
+    grid-template-rows: 75px 45px 750px 62px;
     border: 2px solid black;
 }
 
@@ -29,6 +29,8 @@
     grid-column: 2/3;
     grid-row: 3/4;
     border: 2px solid black;
+    text-align: center;
+    padding-top: 32px;
 }
 
 .footer {
@@ -78,5 +80,13 @@ ul {
 
  h3 {
     padding-left: 35px;
-    
+    font-size: 20px;
+}
+
+a:hover {
+  color: green;
+}
+
+a:link {
+  color: grey;
 }
