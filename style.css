@@ -89,7 +89,12 @@ ul {
 
  h3 {
     padding-left: 35px;
-    font-size: 19px;
+    font-size: 17px;
+}
+
+h4 {
+  padding-left: 35px;
+  font-size: 23px;
 }
 
 a:hover {
